@@ -11,3 +11,6 @@ Lastly, the script will return and output which is the majority element of the a
 Screenshot Example:
 
 ![image](https://user-images.githubusercontent.com/83873514/117560994-e1965c80-b0bc-11eb-8e94-481685d4d1a9.png)
+
+![image](https://user-images.githubusercontent.com/83873514/117561016-1bfff980-b0bd-11eb-9ec8-cbd7b40aa501.png)
+
