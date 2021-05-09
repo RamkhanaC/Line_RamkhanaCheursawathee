@@ -28,7 +28,7 @@ majority <- function(array_value){
   # Logical vector to identify which element has max freq
   table(vector_a) == max(table(vector_a))
   
-  # Print column with max freq. or -1 if can't find
+  # Print column with max freq. or -1 if there's no majority element of that array
   if(a == -1){
     return(paste0("Output: ",a))
   }else{
