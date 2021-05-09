@@ -45,12 +45,15 @@ majority <- function(array_value){
   
   # Print column with max freq. or -1 if can't find
   if(a == -1){
-    return(a)
+    return(paste0("Output: ",a))
   }else{
-    return(names(which(table(vector_a) == max(table(vector_a)))))
+    return(paste0("Output: ", names(which(table(vector_a) == max(table(vector_a))))))
   }  
   
 }
+
+# get user input
+input_func <- function(){
 
 # prompt to get vector length
 leng <- as.integer(readline(prompt = "Enter array length:"))
@@ -64,3 +67,6 @@ vector_a
 array_value <- readline(prompt = "Enter array value:")
 
 majority(array_value)
+}
+
+input_func()
