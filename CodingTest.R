@@ -37,18 +37,17 @@ majority <- function(array_value){
   
 }
 
-# get user input
+# get user input function
 input_func <- function(){
 
-# prompt to get vector length
+# prompt to get array length
 leng <- as.integer(readline(prompt = "Enter array length:"))
 
 vector_length(leng)
 
 vector_a
 
-# prompt to get value
-
+# prompt to get array element
 array_value <- readline(prompt = "Enter array value:")
 
 majority(array_value)
