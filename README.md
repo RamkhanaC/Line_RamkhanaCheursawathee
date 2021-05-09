@@ -1,6 +1,6 @@
 # Line_RamkhanaCheursawathee
 
-The .R code have to be executed by 'RStudio' program as we need user to input value.
+The .R code have to be executed by 'RStudio' program as we need user to input value to calculate majority element
 
 After click 'Run' or 'Source' in RStudio, there will be 2 user prompts in the console
 1) Input number of elements in the array.
